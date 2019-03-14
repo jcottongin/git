@@ -1,21 +1,20 @@
 #payroll hours and rate include overtime
 
-
 def payroll(hours, rate):
+#compare if hours is overtime or regular
 	if hours <= 40:
 		pay=hours*rate
-		netpay = pay*.80
-
 	else:
 		overhours = hours-40
 		overtime = (overhours*1.5)*rate
 		pay = (40*rate) +  overtime
-		netpay = pay*.80
-	print 'pay:',pay 
-	print 'netpay:', netpay
-	return 
 
 	
+	print "Total Pay", pay
+	netpay=pay*0.8874
+	print ('Net Pay:''%.2f'%netpay)
+	return 0
+
 while True:
 
 	hours = input('Enter hours: or 0 for Calendar ')
@@ -26,7 +25,7 @@ while True:
 	else:
 		
 		break	
-
+#calendar selected enter date
 import datetime
 def ObtainDate():
     isValid=False
@@ -39,12 +38,21 @@ def ObtainDate():
             print "Doh, try again!"
 
     return d
+#Today's date
+d1 = datetime.datetime.today()
+d2 = ObtainDate()
+d3 = d2 - d1 
+print d3
+
+#calculate vacation days
+v= 
 
 
-#test the function
-print ObtainDate()
-print 
-import calendar
-cal = calendar.month(2019, 1)
-print cal
+#print calendar
+#print ObtainDate()
+#print 
+#import calendar
+#cal = (calendar.month(2019,03))
+#print cal
+
 
