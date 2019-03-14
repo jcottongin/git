@@ -30,23 +30,24 @@ import datetime
 def ObtainDate():
     isValid=False
     while not isValid:
-        userIn = raw_input("enter date ")
+        userIn = raw_input("Enter Date ")
         try: # strptime throws an exception if the input doesn't match the pattern
             d = datetime.datetime.strptime(userIn, "%m/%d/%y")
             isValid=True
         except:
-            print "Doh, try again!"
+            print "Enter Date in mm/dd/yy format"
 
     return d
-#Today's date
-d1 = datetime.datetime.today()
-d2 = ObtainDate()
-d3 = d2 - d1 
+
+d1 = datetime.datetime.today() #Today's date
+d2 = ObtainDate()  #Return value of user entered date
+d3 = d2 - d1 #Difference in days entered and today
 print d3
 
 #calculate vacation days
+print  "Today is ", d1.strftime("%m/%d/%Y")
 v = (d3.days * (20.0/365))
-print int(v)
+print  "Vacation Days", int(v) 
 
 
 #print calendar
