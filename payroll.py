@@ -45,7 +45,8 @@ d3 = d2 - d1
 print d3
 
 #calculate vacation days
-v= 
+v = (d3.days * (20.0/365))
+print int(v)
 
 
 #print calendar
