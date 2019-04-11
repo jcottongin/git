@@ -1,31 +1,37 @@
+#!/usr/bin/env python  
+from lxml import html
 import requests
-import urllib2
-from bs4 import BeautifulSoup
 
-quote_page = 'https://finance.yahoo.com/most-active'
-page = urllib2.urlopen(quote_page)
+page = requests.get('https://finance.yahoo.com/most-active')
+tree = html.fromstring(page.content)
+#print page.text
 
-soup = BeautifulSoup(page, 'html.parser')
 
-name = [] #name list
-
-for name_box in soup.findAll('a', attrs={'class':'Fw(600)'}): #find instances of stock name
-		
-	name.append(name_box.text) #attach name to lists
-	print name_box.text
+name = tree.xpath('//td[@class="Va(m) Fz(s) Ta(start) Px(10px)"]/text()')  #create tree of name lists
 #print name
-		
-price = [] #price list
-for price_box in soup.findAll('td', attrs={'class':'Va(m) Fz(s) Ta(end) Pstart(20px) Fw(600)'}): 
-	price.append(price_box.text)
+
+names = [name.text_content() for name in tree.xpath('//td[@class="Va(m) Fz(s) Ta(start) Px(10px)"]')]
+#search for names column
+print names
+
+price = tree.xpath('//td[@aria-label="Price (Intraday)"]')
 #print price
-import csv	
-stock = {}	 #combine lists
-for na, pr in zip(name, price):
+prices = [price.text_content() for price in tree.xpath('//td[@aria-label="Price (Intraday)"]')]
+#print prices
+#search for prices column
+
+
+stock = {}
+for na, pr in zip(names, prices):   #na is name pr is price 
 	stock[na] = pr
 print stock
+#zip lists
 
-#write csv of lists 
-with open('index.csv', 'a') as f:
+import csv
+import sys   #ascii code fix
+reload(sys)
+sys.setdefaultencoding('utf-8') #ascii code fix
+
+with open('stock.csv', 'a') as f:  #open stock.csv and write name and price
 	for na, pr in stock.items():
-		f.write("%s,%s\n"%(na, pr))
+		f.write("%s,$%s\n"%(na, pr))
