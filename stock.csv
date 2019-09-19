@@ -1,66 +1,564 @@
-Ford Motor Company,$9.38
-Gerdau S.A.,$4.0050
-Snap Inc.,$12.06
-Wells Fargo & Company,$47.68
-Infosys Limited,$11.03
-Bank of America Corporation,$29.15
-QIAGEN N.V.,$41.23
-Southwestern Energy Company,$4.4750
-ARRIS International Limited,$31.66
-Micron Technology, Inc.,$42.60
-Tesla, Inc.,$267.88
-Bed Bath & Beyond Inc.,$17.92
-Nokia Corporation,$5.88
-Lyft, Inc.,$61.55
-NIO Inc.,$5.01
-United States Steel Corporation,$16.80
-Ambev S.A.,$4.4893
-Transocean Ltd.,$8.88
-Bristol-Myers Squibb Company,$45.84
-eBay Inc.,$36.33
-Caesars Entertainment Corporation,$9.27
-Petróleo Brasileiro S.A. - Petrobras,$16.54
-Apple Inc.,$200.38
-Aurora Cannabis Inc.,$8.90
-JD.com, Inc.,$30.03
-AT&T Inc.,$32.22
-Encana Corporation,$7.18
-General Electric Company,$9.23
-Advanced Micro Devices, Inc.,$27.99
-Sirius XM Holdings Inc.,$6.01
-Chesapeake Energy Corporation,$3.3300
-Ford Motor Company,$9.37
-Gerdau S.A.,$3.9850
-Cisco Systems, Inc.,$55.59
-Southwestern Energy Company,$4.4800
-Wells Fargo & Company,$47.62
-Infosys Limited,$11.02
-Bank of America Corporation,$29.11
-QIAGEN N.V.,$41.22
-Snap Inc.,$12.12
-ARRIS International Limited,$31.66
-Micron Technology, Inc.,$42.59
-Tesla, Inc.,$268.41
-Bed Bath & Beyond Inc.,$17.92
-Nokia Corporation,$5.87
-Lyft, Inc.,$61.71
-NIO Inc.,$5.0000
-United States Steel Corporation,$16.72
-Ambev S.A.,$4.4632
-Transocean Ltd.,$8.89
-Bristol-Myers Squibb Company,$45.83
-eBay Inc.,$36.37
-Roku, Inc.,$58.59
-Caesars Entertainment Corporation,$9.40
-Petróleo Brasileiro S.A. - Petrobras,$16.49
-Apple Inc.,$200.19
-Aurora Cannabis Inc.,$8.90
-JD.com, Inc.,$30.00
-AT&T Inc.,$32.23
-Microsoft Corporation,$120.28
-Telefonaktiebolaget LM Ericsson (publ),$9.81
+
+Stock Name$ Price
+Square, Inc.,$75.03
+Twitter, Inc.,$34.72
+Infosys Limited,$11.32
+Banco Bradesco S.A.,$9.39
+Halliburton Company,$30.97
+FirstEnergy Corp.,$40.97
+Arconic Inc.,$20.11
+Transocean Ltd.,$9.14
+Bristol-Myers Squibb Company,$46.64
+Centene Corporation,$55.84
+QUALCOMM Incorporated,$57.99
+JPMorgan Chase & Co.,$105.31
+Oasis Petroleum Inc.,$6.40
+Apple Inc.,$197.00
+Grupo Televisa, S.A.B.,$11.01
+Marathon Oil Corporation,$17.70
+Graphic Packaging Holding Company,$12.65
 Encana Corporation,$7.16
-General Electric Company,$9.22
-Advanced Micro Devices, Inc.,$27.97
+eBay Inc.,$37.84
+Vale S.A.,$13.39
+Altria Group, Inc.,$54.77
+Morgan Stanley,$44.90
+Pfizer Inc.,$42.99
+JD.com, Inc.,$31.24
+Wells Fargo & Company,$48.78
+Bank of America Corporation,$29.08
+Snap Inc.,$11.84
+Micron Technology, Inc.,$43.32
+Altaba Inc.,$74.01
+Tesla, Inc.,$274.96
+Bed Bath & Beyond Inc.,$18.35
+Nokia Corporation,$5.92
+Sirius XM Holdings Inc.,$5.94
+Marvell Technology Group Ltd.,$21.30
+Intel Corporation,$55.60
+ICICI Bank Limited,$11.25
+NVIDIA Corporation,$190.95
+Itaú Unibanco Holding S.A.,$8.93
+Merck & Co., Inc.,$81.15
+Sprint Corporation,$5.63
+Macy's, Inc.,$25.49
+Aurora Cannabis Inc.,$9.17
+CenturyLink, Inc.,$12.55
+Annaly Capital Management, Inc.,$10.01
+Petróleo Brasileiro S.A. - Petrobras,$14.92
+Facebook, Inc.,$175.72
+Huntington Bancshares Incorporated,$13.31
+Microsoft Corporation,$119.89
+DowDuPont Inc.,$37.90
+Alibaba Group Holding Limited,$185.35
+Antero Resources Corporation,$8.98
+PayPal Holdings, Inc.,$105.73
+Verizon Communications Inc.,$59.09
+Oracle Corporation,$53.93
+ConocoPhillips,$66.12
+Zynga Inc.,$5.35
+Comcast Corporation,$40.42
+VEREIT, Inc.,$8.32
+The Western Union Company,$19.39
+Ambev S.A.,$4.4900
+Teva Pharmaceutical Industries Limited,$15.24
+Southwestern Energy Company,$4.7100
+WPX Energy, Inc.,$13.63
+NIO Inc.,$5.36
+Regions Financial Corporation,$15.14
+Gerdau S.A.,$4.0900
+Citigroup Inc.,$65.55
+Walgreens Boots Alliance, Inc.,$54.69
+CVS Health Corporation,$54.06
+Johnson Controls International plc,$36.19
+Energy Transfer LP,$15.74
+Vipshop Holdings Limited,$8.65
+General Electric Company,$10.01
+Roku, Inc.,$63.40
+Chesapeake Energy Corporation,$3.4100
+Schlumberger Limited,$45.00
+The Kraft Heinz Company,$33.17
+Ford Motor Company,$9.25
+Cisco Systems, Inc.,$55.21
+Goldcorp Inc.,$11.69
+Celgene Corporation,$94.80
+Yamana Gold Inc.,$2.5900
+Exxon Mobil Corporation,$82.49
+Lyft, Inc.,$74.45
+Anadarko Petroleum Corporation,$47.01
+Pinduoduo Inc.,$21.60
+KeyCorp,$16.59
+Kinder Morgan, Inc.,$20.05
+StoneCo Ltd.,$35.90
+Caesars Entertainment Corporation,$9.19
+Bilibili Inc.,$18.02
+AT&T Inc.,$32.35
+Kinross Gold Corporation,$3.5000
+Freeport-McMoRan Inc.,$13.33
+The Walt Disney Company,$115.00
+Advanced Micro Devices, Inc.,$28.98
+United States Steel Corporation,$19.84
+Applied Materials, Inc.,$43.04
+The Coca-Cola Company,$46.47
+QUALCOMM Incorporated,$56.01
+Pfizer Inc.,$42.05
+Ambev S.A.,$4.4468
+Gerdau S.A.,$3.9400
+Cisco Systems, Inc.,$55.54
+Snap Inc.,$11.97
+Wells Fargo & Company,$47.85
+Goldcorp Inc.,$11.47
+Infosys Limited,$10.94
+QIAGEN N.V.,$41.03
+Bank of America Corporation,$29.21
+CVS Health Corporation,$52.79
+Banco Bradesco S.A.,$9.02
+DowDuPont Inc.,$38.96
+Southwestern Energy Company,$4.4850
+ARRIS International Limited,$31.66
+Micron Technology, Inc.,$42.55
+Twitter, Inc.,$34.60
+Alibaba Group Holding Limited,$185.06
+Tesla, Inc.,$266.85
+Celgene Corporation,$94.05
+Coty Inc.,$11.15
+CEMEX, S.A.B. de C.V.,$4.7650
+Bed Bath & Beyond Inc.,$17.86
+Banco Santander, S.A.,$4.9900
+Nokia Corporation,$5.87
+Exxon Mobil Corporation,$81.75
+Lyft, Inc.,$61.69
+NIO Inc.,$4.9966
+United States Steel Corporation,$16.78
+Verizon Communications Inc.,$58.34
+Ford Motor Company,$9.39
+Cronos Group Inc.,$16.83
+Marvell Technology Group Ltd.,$22.48
+First Data Corporation,$25.29
+Intel Corporation,$55.80
+Delta Air Lines, Inc.,$58.63
+Transocean Ltd.,$8.81
+Bristol-Myers Squibb Company,$45.81
+Teva Pharmaceutical Industries Limited,$14.44
+Companhia Energética de Minas Gerais,$3.7100
+NVIDIA Corporation,$192.02
+eBay Inc.,$36.17
+Roku, Inc.,$58.23
+Itaú Unibanco Holding S.A.,$8.63
+The Kroger Co.,$25.36
+JPMorgan Chase & Co.,$106.37
+Sprint Corporation,$5.97
+Zayo Group Holdings, Inc.,$30.90
+Fiserv, Inc.,$85.44
+AbbVie Inc.,$81.31
+Macy's, Inc.,$24.49
+Caesars Entertainment Corporation,$9.40
+Petróleo Brasileiro S.A. - Petrobras,$16.42
+Apple Inc.,$199.21
+Aurora Cannabis Inc.,$8.81
+Lloyds Banking Group plc,$3.3147
+HUYA Inc.,$22.62
+Barrick Gold Corporation,$13.36
+JD.com, Inc.,$30.16
+Yamana Gold Inc.,$2.5499
+KeyCorp,$16.47
+Facebook, Inc.,$177.65
+Huntington Bancshares Incorporated,$13.35
+HP Inc.,$19.98
+Square, Inc.,$75.36
+AT&T Inc.,$32.15
+Kinross Gold Corporation,$3.4600
+Freeport-McMoRan Inc.,$13.16
+Microsoft Corporation,$120.24
+Telefonaktiebolaget LM Ericsson (publ),$9.74
+Encana Corporation,$7.14
+The Walt Disney Company,$116.80
+Cleveland-Cliffs Inc.,$10.12
+Citigroup Inc.,$65.94
+General Electric Company,$9.13
+Advanced Micro Devices, Inc.,$27.74
+Bayer Aktiengesellschaft,$17.01
 Sirius XM Holdings Inc.,$6.01
-Chesapeake Energy Corporation,$3.3300
+Chesapeake Energy Corporation,$3.3450
+Vale S.A.,$13.26
+QUALCOMM Incorporated,$56.00
+Pfizer Inc.,$42.04
+Ambev S.A.,$4.4400
+Gerdau S.A.,$3.9447
+Cisco Systems, Inc.,$55.55
+Snap Inc.,$11.95
+Wells Fargo & Company,$47.82
+Goldcorp Inc.,$11.47
+Infosys Limited,$10.94
+QIAGEN N.V.,$41.03
+Bank of America Corporation,$29.20
+CVS Health Corporation,$52.78
+Banco Bradesco S.A.,$9.02
+DowDuPont Inc.,$38.97
+Southwestern Energy Company,$4.4850
+ARRIS International Limited,$31.66
+Micron Technology, Inc.,$42.57
+Twitter, Inc.,$34.59
+Alibaba Group Holding Limited,$185.09
+Tesla, Inc.,$266.60
+Celgene Corporation,$94.05
+Coty Inc.,$11.15
+CEMEX, S.A.B. de C.V.,$4.7600
+Bed Bath & Beyond Inc.,$17.86
+Banco Santander, S.A.,$5.0000
+Nokia Corporation,$5.86
+Exxon Mobil Corporation,$81.75
+Lyft, Inc.,$61.70
+NIO Inc.,$4.9900
+United States Steel Corporation,$16.78
+Verizon Communications Inc.,$58.35
+Ford Motor Company,$9.39
+Cronos Group Inc.,$16.82
+Marvell Technology Group Ltd.,$22.48
+First Data Corporation,$25.28
+Intel Corporation,$55.81
+Delta Air Lines, Inc.,$58.65
+Transocean Ltd.,$8.79
+Bristol-Myers Squibb Company,$45.81
+Teva Pharmaceutical Industries Limited,$14.44
+Companhia Energética de Minas Gerais,$3.7150
+NVIDIA Corporation,$192.00
+eBay Inc.,$36.17
+Roku, Inc.,$58.22
+Itaú Unibanco Holding S.A.,$8.63
+The Kroger Co.,$25.36
+JPMorgan Chase & Co.,$106.36
+Sprint Corporation,$5.97
+Zayo Group Holdings, Inc.,$30.92
+Fiserv, Inc.,$85.43
+AbbVie Inc.,$81.34
+Macy's, Inc.,$24.49
+Caesars Entertainment Corporation,$9.42
+Petróleo Brasileiro S.A. - Petrobras,$16.41
+Apple Inc.,$199.18
+Aurora Cannabis Inc.,$8.81
+Lloyds Banking Group plc,$3.3150
+HUYA Inc.,$22.65
+Barrick Gold Corporation,$13.37
+JD.com, Inc.,$30.16
+Yamana Gold Inc.,$2.5499
+KeyCorp,$16.47
+Facebook, Inc.,$177.65
+Huntington Bancshares Incorporated,$13.36
+HP Inc.,$19.99
+Square, Inc.,$75.40
+AT&T Inc.,$32.15
+Kinross Gold Corporation,$3.4650
+Freeport-McMoRan Inc.,$13.16
+Microsoft Corporation,$120.22
+Telefonaktiebolaget LM Ericsson (publ),$9.74
+Encana Corporation,$7.14
+The Walt Disney Company,$116.81
+Cleveland-Cliffs Inc.,$10.12
+Citigroup Inc.,$65.96
+General Electric Company,$9.13
+Advanced Micro Devices, Inc.,$27.76
+Bayer Aktiengesellschaft,$17.00
+Sirius XM Holdings Inc.,$6.01
+Chesapeake Energy Corporation,$3.3401
+Vale S.A.,$13.26
+Square, Inc.,$75.39
+Infosys Limited,$10.94
+Banco Bradesco S.A.,$9.07
+Companhia Energética de Minas Gerais,$3.7300
+Fiserv, Inc.,$85.50
+HP Inc.,$19.92
+Delta Air Lines, Inc.,$58.40
+Transocean Ltd.,$8.81
+Bristol-Myers Squibb Company,$46.03
+Centene Corporation,$55.26
+QUALCOMM Incorporated,$55.95
+The Kroger Co.,$25.77
+JPMorgan Chase & Co.,$106.23
+Apple Inc.,$199.05
+HUYA Inc.,$22.65
+Barrick Gold Corporation,$13.42
+Petróleo Brasileiro S.A. - Petrobras,$16.45
+AbbVie Inc.,$81.64
+KeyCorp,$16.43
+Vale S.A.,$13.35
+Itaú Unibanco Holding S.A.,$8.68
+Pfizer Inc.,$42.21
+Gerdau S.A.,$3.9450
+Wells Fargo & Company,$47.75
+Bank of America Corporation,$29.14
+Encana Corporation,$7.17
+Snap Inc.,$11.84
+Micron Technology, Inc.,$42.30
+Twitter, Inc.,$34.53
+Tesla, Inc.,$268.02
+Canopy Growth Corporation,$40.09
+Bed Bath & Beyond Inc.,$17.60
+Nokia Corporation,$5.87
+Sirius XM Holdings Inc.,$6.03
+Chesapeake Energy Corporation,$3.3400
+Marvell Technology Group Ltd.,$22.50
+Cronos Group Inc.,$16.80
+Intel Corporation,$55.76
+JetBlue Airways Corporation,$17.17
+NVIDIA Corporation,$191.02
+Morgan Stanley,$44.83
+Merck & Co., Inc.,$79.85
+Sprint Corporation,$5.97
+Zayo Group Holdings, Inc.,$30.83
+Macy's, Inc.,$24.33
+Aurora Cannabis Inc.,$8.87
+CenturyLink, Inc.,$12.59
+Telefonaktiebolaget LM Ericsson (publ),$9.77
+WPX Energy, Inc.,$13.50
+Facebook, Inc.,$177.24
+Huntington Bancshares Incorporated,$13.36
+Lloyds Banking Group plc,$3.3000
+Microsoft Corporation,$120.06
+DowDuPont Inc.,$38.90
+Alibaba Group Holding Limited,$184.72
+PayPal Holdings, Inc.,$106.31
+Verizon Communications Inc.,$58.58
+Oracle Corporation,$53.85
+ConocoPhillips,$66.32
+Comcast Corporation,$41.03
+Ambev S.A.,$4.4500
+Teva Pharmaceutical Industries Limited,$14.48
+Southwestern Energy Company,$4.5150
+Banco Santander, S.A.,$4.9950
+NIO Inc.,$5.01
+Regions Financial Corporation,$15.19
+JD.com, Inc.,$30.17
+Citigroup Inc.,$65.80
+Walgreens Boots Alliance, Inc.,$53.49
+CEMEX, S.A.B. de C.V.,$4.7700
+CVS Health Corporation,$52.60
+Marathon Oil Corporation,$17.20
+QIAGEN N.V.,$40.96
+Medtronic plc,$87.78
+Dow Inc.,$55.14
+General Electric Company,$9.12
+Roku, Inc.,$58.64
+UnitedHealth Group Incorporated,$235.21
+Cleveland-Cliffs Inc.,$10.06
+Ford Motor Company,$9.39
+Cisco Systems, Inc.,$55.62
+Goldcorp Inc.,$11.50
+American Airlines Group Inc.,$34.76
+Celgene Corporation,$94.19
+Coty Inc.,$11.15
+Yamana Gold Inc.,$2.5550
+Exxon Mobil Corporation,$81.96
+Lyft, Inc.,$61.34
+First Data Corporation,$25.29
+Newmont Mining Corporation,$35.88
+eBay Inc.,$36.15
+Cousins Properties Incorporated,$9.74
+Caesars Entertainment Corporation,$9.40
+AT&T Inc.,$32.22
+Kinross Gold Corporation,$3.4750
+Freeport-McMoRan Inc.,$13.40
+The Walt Disney Company,$116.75
+Advanced Micro Devices, Inc.,$27.78
+Bayer Aktiengesellschaft,$16.98
+United States Steel Corporation,$16.68
+Stock Name$ Price
+Square, Inc.,$68.42
+Infosys Limited,$10.34
+Cognizant Technology Solutions Corporation,$58.51
+The Mosaic Company,$23.25
+Banco Bradesco S.A.,$8.75
+Halliburton Company,$26.94
+HP Inc.,$19.61
+Transocean Ltd.,$7.37
+Bristol-Myers Squibb Company,$47.22
+Centene Corporation,$55.85
+QUALCOMM Incorporated,$85.20
+JPMorgan Chase & Co.,$113.21
+Mylan N.V.,$21.53
+Occidental Petroleum Corporation,$59.69
+Apple Inc.,$202.86
+Barrick Gold Corporation,$12.72
+Realty Income Corporation,$66.63
+Encana Corporation,$6.84
+Vale S.A.,$12.49
+Itaú Unibanco Holding S.A.,$8.24
+Pfizer Inc.,$40.83
+Taiwan Semiconductor Manufacturing Company Limited,$43.76
+JD.com, Inc.,$27.13
+Wells Fargo & Company,$47.17
+Energy Transfer LP,$15.11
+Bank of America Corporation,$29.92
+Snap Inc.,$11.17
+Micron Technology, Inc.,$40.26
+Twitter, Inc.,$38.62
+Anadarko Petroleum Corporation,$75.82
+Nokia Corporation,$5.04
+VEREIT, Inc.,$8.19
+Aramark,$29.53
+Marvell Technology Group Ltd.,$23.85
+Intel Corporation,$50.48
+NVIDIA Corporation,$173.11
+American International Group, Inc.,$50.30
+Morgan Stanley,$46.71
+Sprint Corporation,$5.79
+Aurora Cannabis Inc.,$8.60
+CenturyLink, Inc.,$11.41
+Annaly Capital Management, Inc.,$9.65
+Las Vegas Sands Corp.,$64.45
+Beyond Meat, Inc.,$79.17
+Petróleo Brasileiro S.A. - Petrobras,$14.71
+Facebook, Inc.,$189.77
+Huntington Bancshares Incorporated,$13.65
+Microsoft Corporation,$125.52
+ON Semiconductor Corporation,$22.12
+DowDuPont Inc.,$32.14
+Alibaba Group Holding Limited,$181.43
+Antero Resources Corporation,$8.00
+Verizon Communications Inc.,$56.63
+Oracle Corporation,$54.00
+Zynga Inc.,$6.09
+Comcast Corporation,$42.76
+Flex Ltd.,$10.96
+The Western Union Company,$19.20
+Ambev S.A.,$4.4700
+Teva Pharmaceutical Industries Limited,$14.61
+The Boeing Company,$357.23
+Southwestern Energy Company,$4.0100
+Range Resources Corporation,$9.41
+Banco Santander, S.A.,$4.6900
+NIO Inc.,$4.8400
+Regions Financial Corporation,$15.11
+Gerdau S.A.,$3.5400
+Citigroup Inc.,$68.16
+Mondelez International, Inc.,$51.01
+CVS Health Corporation,$55.35
+Marathon Oil Corporation,$15.51
+General Motors Company,$38.53
+United States Steel Corporation,$16.41
+General Electric Company,$10.11
+Roku, Inc.,$64.41
+Chesapeake Energy Corporation,$2.7800
+Chevron Corporation,$118.27
+Schlumberger Limited,$40.60
+Newmont Goldcorp Corporation,$30.72
+The Kraft Heinz Company,$32.50
+Ford Motor Company,$10.38
+Cisco Systems, Inc.,$53.45
+Coty Inc.,$12.25
+Yamana Gold Inc.,$2.1300
+Exxon Mobil Corporation,$76.72
+Tesla, Inc.,$247.06
+NIKE, Inc.,$82.54
+KeyCorp,$17.35
+Kinder Morgan, Inc.,$19.56
+Marathon Petroleum Corporation,$59.43
+Caesars Entertainment Corporation,$9.03
+AT&T Inc.,$30.53
+Kinross Gold Corporation,$3.0600
+Freeport-McMoRan Inc.,$11.44
+The Walt Disney Company,$133.44
+Cleveland-Cliffs Inc.,$10.13
+Advanced Micro Devices, Inc.,$26.66
+Sirius XM Holdings Inc.,$5.72
+Applied Materials, Inc.,$42.05
+The Coca-Cola Company,$48.00
+Square, Inc.,$68.42
+Infosys Limited,$10.34
+Cognizant Technology Solutions Corporation,$58.51
+The Mosaic Company,$23.25
+Banco Bradesco S.A.,$8.75
+Halliburton Company,$26.94
+HP Inc.,$19.61
+Transocean Ltd.,$7.37
+Bristol-Myers Squibb Company,$47.22
+Centene Corporation,$55.85
+QUALCOMM Incorporated,$85.20
+JPMorgan Chase & Co.,$113.21
+Mylan N.V.,$21.53
+Occidental Petroleum Corporation,$59.69
+Apple Inc.,$202.86
+Barrick Gold Corporation,$12.72
+Realty Income Corporation,$66.63
+Encana Corporation,$6.84
+Vale S.A.,$12.49
+Itaú Unibanco Holding S.A.,$8.24
+Pfizer Inc.,$40.83
+Taiwan Semiconductor Manufacturing Company Limited,$43.76
+JD.com, Inc.,$27.13
+Wells Fargo & Company,$47.17
+Energy Transfer LP,$15.11
+Bank of America Corporation,$29.92
+Snap Inc.,$11.17
+Micron Technology, Inc.,$40.26
+Twitter, Inc.,$38.62
+Anadarko Petroleum Corporation,$75.82
+Nokia Corporation,$5.04
+VEREIT, Inc.,$8.19
+Aramark,$29.53
+Marvell Technology Group Ltd.,$23.85
+Intel Corporation,$50.48
+NVIDIA Corporation,$173.11
+American International Group, Inc.,$50.30
+Morgan Stanley,$46.71
+Sprint Corporation,$5.79
+Aurora Cannabis Inc.,$8.60
+CenturyLink, Inc.,$11.41
+Annaly Capital Management, Inc.,$9.65
+Las Vegas Sands Corp.,$64.45
+Beyond Meat, Inc.,$79.17
+Petróleo Brasileiro S.A. - Petrobras,$14.71
+Facebook, Inc.,$189.77
+Huntington Bancshares Incorporated,$13.65
+Microsoft Corporation,$125.52
+ON Semiconductor Corporation,$22.12
+DowDuPont Inc.,$32.14
+Alibaba Group Holding Limited,$181.43
+Antero Resources Corporation,$8.00
+Verizon Communications Inc.,$56.63
+Oracle Corporation,$54.00
+Zynga Inc.,$6.09
+Comcast Corporation,$42.76
+Flex Ltd.,$10.96
+The Western Union Company,$19.20
+Ambev S.A.,$4.4700
+Teva Pharmaceutical Industries Limited,$14.61
+The Boeing Company,$357.23
+Southwestern Energy Company,$4.0100
+Range Resources Corporation,$9.41
+Banco Santander, S.A.,$4.6900
+NIO Inc.,$4.8400
+Regions Financial Corporation,$15.11
+Gerdau S.A.,$3.5400
+Citigroup Inc.,$68.16
+Mondelez International, Inc.,$51.01
+CVS Health Corporation,$55.35
+Marathon Oil Corporation,$15.51
+General Motors Company,$38.53
+United States Steel Corporation,$16.41
+General Electric Company,$10.11
+Roku, Inc.,$64.41
+Chesapeake Energy Corporation,$2.7800
+Chevron Corporation,$118.27
+Schlumberger Limited,$40.60
+Newmont Goldcorp Corporation,$30.72
+The Kraft Heinz Company,$32.50
+Ford Motor Company,$10.38
+Cisco Systems, Inc.,$53.45
+Coty Inc.,$12.25
+Yamana Gold Inc.,$2.1300
+Exxon Mobil Corporation,$76.72
+Tesla, Inc.,$247.06
+NIKE, Inc.,$82.54
+KeyCorp,$17.35
+Kinder Morgan, Inc.,$19.56
+Marathon Petroleum Corporation,$59.43
+Caesars Entertainment Corporation,$9.03
+AT&T Inc.,$30.53
+Kinross Gold Corporation,$3.0600
+Freeport-McMoRan Inc.,$11.44
+The Walt Disney Company,$133.44
+Cleveland-Cliffs Inc.,$10.13
+Advanced Micro Devices, Inc.,$26.66
+Sirius XM Holdings Inc.,$5.72
+Applied Materials, Inc.,$42.05
+The Coca-Cola Company,$48.00
