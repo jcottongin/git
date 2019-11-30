@@ -9,22 +9,44 @@ def payroll(hours, rate):
 		overtime = (overhours*1.5)*rate
 		pay = (40*rate) +  overtime
 
-	
-	print "Total Pay", pay
-	netpay=pay*0.8874
-	print ('Net Pay:''%.2f'%netpay)
-	return 0
+	print 'Federal:','%.2f'%(pay*0.07)
+	print 'Medicare:','%.2f'%(pay*0.05)
+	print 'Social Security:','%.2f'%(pay*.01)
+	print "Total Pay: ", pay
+	netpay=pay*0.7374
+	print 'Weekly Net Pay:''%.2f'%netpay
+	print 'Monthly Net Pay: ', netpay*4
+	print 'Net Yearly:' , netpay*52
 
+##adding set hours and rate
 while True:
-
-	hours = input('Enter hours: or 0 for Calendar ')
-	if hours !=0:
-		rate = input('Enter rate: ')
+	entry = input('1 for hours 0 for calendar')	
+	if entry !=0:
+		print('Enter hours''\n''or 0 for Calendar ''\n')
+		hours = 40
+		print 'hours: ', hours
+		rate = 30
+		print'rate: ', rate
 	
 		print payroll(hours, rate)
 	else:
-		
-		break	
+		break
+##
+#user input for hour and pay variables 
+#while True:
+
+#	print('Enter hours''\n''or 0 for Calendar ''\n')
+#	hours = 40
+#	print ('hours: ', hours)
+#	if hours !=0:
+#		rate = 30
+#		print('rate: ', rate)
+#	
+#		print payroll(hours, rate)
+#	else:
+#		
+#		break	
+##
 #calendar selected enter date
 import datetime
 def ObtainDate():
@@ -56,5 +78,3 @@ print  "Vacation Days", int(v)
 #import calendar
 #cal = (calendar.month(2019,03))
 #print cal
-
-
