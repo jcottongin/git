@@ -19,33 +19,30 @@ def payroll(hours, rate):
 	print 'Net Yearly:' , netpay*52
 
 ##adding set hours and rate
-while True:
-	entry = input('1 for hours 0 for calendar')	
-	if entry !=0:
-		print('Enter hours''\n''or 0 for Calendar ''\n')
-		hours = 40
-		print 'hours: ', hours
-		rate = 30
-		print'rate: ', rate
-	
-		print payroll(hours, rate)
-	else:
-		break
-##
-#user input for hour and pay variables 
 #while True:
-
-#	print('Enter hours''\n''or 0 for Calendar ''\n')
-#	hours = 40
-#	print ('hours: ', hours)
-#	if hours !=0:
+#	entry = input('1 for hours 0 for calendar')	
+#	if entry !=0:
+#		print('Enter hours''\n''or 0 for Calendar ''\n')
+#		hours = 40
+#		print 'hours: ', hours
 #		rate = 30
-#		print('rate: ', rate)
+#		print'rate: ', rate
 #	
 #		print payroll(hours, rate)
 #	else:
-#		
-#		break	
+#		break
+##
+#user input for hour and pay variables 
+while True:
+
+	hours = input('Enter hours: or 0 for Calendar ')
+	if hours !=0:
+		rate = input('Enter rate: ')
+	
+		print payroll(hours, rate)
+	else:
+		
+		break	
 ##
 #calendar selected enter date
 import datetime
