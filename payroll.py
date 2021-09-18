@@ -9,14 +9,14 @@ def payroll(hours, rate):
 		overtime = (overhours*1.5)*rate
 		pay = (40*rate) +  overtime
 
-	print 'Federal:','%.2f'%(pay*0.07)
-	print 'Medicare:','%.2f'%(pay*0.05)
-	print 'Social Security:','%.2f'%(pay*.01)
-	print "Total Pay: ", pay
+	print ('Federal:','%.2f'%(pay*0.07))
+	print ('Medicare:','%.2f'%(pay*0.05))
+	print ('Social Security:','%.2f'%(pay*.01))
+	print ("Total Pay: ", pay)
 	netpay=pay*0.7374
-	print 'Weekly Net Pay:''%.2f'%netpay
-	print 'Monthly Net Pay: ', netpay*4
-	print 'Net Yearly:' , netpay*52
+	print( 'Weekly Net Pay:''%.2f'%netpay)
+	print( 'Monthly Net Pay: ', netpay*4)
+	print ('Net Yearly:' , netpay*52)
 
 ##adding set hours and rate
 #while True:
@@ -24,11 +24,11 @@ def payroll(hours, rate):
 #	if entry !=0:
 #		print('Enter hours''\n''or 0 for Calendar ''\n')
 #		hours = 40
-#		print 'hours: ', hours
-#		rate = 30
-#		print'rate: ', rate
+#		print( 'hours: ', hours)
+#		rate = 30 
+#		print('rate: ', rate)
 #	
-#		print payroll(hours, rate)
+#		print( payroll(hours, rate))
 #	else:
 #		break
 ##
@@ -39,7 +39,7 @@ while True:
 	if hours !=0:
 		rate = input('Enter rate: ')
 	
-		print payroll(hours, rate)
+		print( payroll(hours, rate))
 	else:
 		
 		break	
@@ -61,12 +61,12 @@ def ObtainDate():
 d1 = datetime.datetime.today() #Today's date
 d2 = ObtainDate()  #Return value of user entered date
 d3 = d2 - d1 #Difference in days entered and today
-print d3
+print (d3)
 
 #calculate vacation days
 print  "Today is ", d1.strftime("%m/%d/%Y")
 v = (d3.days * (20.0/365))
-print  "Vacation Days", int(v) 
+print ( "Vacation Days", int(v) )
 
 
 #print calendar
