@@ -1,0 +1,22 @@
+def payroll(hours, rate):
+
+
+#compare if hours is overtime or regular
+	if hours <= 40:
+		pay=hours*rate
+	else:
+		overhours = hours-40
+		overtime = (overhours*1.5)*rate
+		pay = (40*rate) +  overtime
+
+	print ('Federal:','%.2f'%(pay*0.07))
+	print ('Medicare:','%.2f'%(pay*0.05))
+	print ('Social Security:','%.2f'%(pay*.01))
+	print ("Total Pay: ", pay)
+	netpay=pay*0.7374
+	print( 'Weekly Net Pay:''%.2f'%netpay)
+	print( 'Monthly Net Pay: ', netpay*4)
+	print ('Net Yearly:' , netpay*52)
+rate = float(input('Enter rate: '))
+hours = float(input('Enter hours: '))
+payroll(hours,rate)
